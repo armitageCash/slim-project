@@ -36,7 +36,7 @@ $ npm run test
 http://localhost:4000/market/btc-usd?gateway=bitfinex
 ```
 
-## GET request for get market info bitfinex
+## GET request for get market info bitrex
 
 ```bash
 http://localhost:4000/market/btc-usd?gateway=bitrex
