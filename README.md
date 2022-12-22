@@ -9,7 +9,7 @@
 $ npm install
 ```
 
-## Installation
+## setup
 
 ```bash
 rename .env.example to .env
@@ -44,10 +44,16 @@ http://localhost:4000/market/btc-usd?gateway=bitrex
 
 
 
-## GET request for operation buy/sell
+## GET request for operation buy
 
 ```bash
 http://localhost:4000/market/operations/btc-usd?op=buy&amount=1000
+```
+
+## GET request for operation sell
+
+```bash
+http://localhost:4000/market/operations/btc-usd?op=buy&amount=-1000
 ```
 
 
